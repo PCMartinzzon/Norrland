@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Servers>
-	<ServerGroup Name="Romero Mod" Logo="" Description="">
+	<ServerGroup Name="Norrland" Logo="" Description="">
 
-		<Server Name="Romero Mod" Logo="">
+		<Server Name="Norrland" Logo="">
 			<Description>
 			This is a mod I created to try out a few different things regarding code. I have tried to keep it as vanilla as possible, to maintain modlet compatibility, and just messed around with how zombie work.
 			
@@ -32,15 +32,15 @@
 			- Increaed amount of XP required to level due to more zombies.
 			- Increased dismemberment chance of explosives.
 
-			7DTD Version Required: A19.4 Stable.
-			Current Mod Version: 1.4
+			7DTD Version Required: A19.5 Stable.
+			Current Mod Version: 0.4
 			</Description>
 			<EAC>Disabled</EAC>
 			<DownloadMode>Clone</DownloadMode>
 			<Version>Latest</Version>
 			<ReleaseNotes>https://7daystodie.com/forums/showthread.php?80827-Darkness-Falls-They-mostly-come-out-at-night</ReleaseNotes>
 			<Downloads>
-				<Download>https://gitlab.com/KhaineGB/romero-mod-a19-client.git</Download>
+				<Download>https://github.com/PCMartinzzon/Norrland.git</Download>
 			</Downloads>
 		</Server>	
 	</ServerGroup>
