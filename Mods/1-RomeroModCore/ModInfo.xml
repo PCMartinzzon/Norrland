@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="1-RomeroModCore" />
+    <Description value="Romero Mode Core Mod ( Required )" />
+    <Author value="KhaineGB" />
+    <Version value="0.1" />
+    <Website value="" />
+  </ModInfo>
+  <DMT>
+    <dependencies />
+    <conflicts />
+  </DMT>
+</xml>

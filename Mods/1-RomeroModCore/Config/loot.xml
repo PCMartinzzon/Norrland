@@ -1,0 +1,46 @@
+<config>
+	<insertBefore xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Gunslinger']">
+		<lootgroup name="groupPipeWeaponsT0Pistol" count="all" loot_quality_template="QLTemplateT0Backup">
+			<item name="gunHandgunT0PipePistol"/>
+			<item name="ammo9mmBulletBall" count="12,24"/>
+		</lootgroup>
+	</insertBefore>
+
+	<insertBefore xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_DeadEye']">
+		<lootgroup name="groupPipeWeaponsT0Rifle" count="all" loot_quality_template="QLTemplateT0Backup">
+			<item name="gunT0PipeRifle"/>
+			<item name="ammo762mmBulletBall" count="5,12"/>
+		</lootgroup>
+	</insertBefore>
+
+	<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Ranged']">
+		<item group="groupPipeWeaponsT0Pistol"/>
+		<item group="groupPipeWeaponsT0Rifle"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='schematicsToolsT0']">
+		<item name="meleeToolScrapIronSetSchematic"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='schematicsWeaponsArmorT0']">
+		<item name="meleeWpnSpearScrapSchematic"/>
+		<item name="meleeWpnBladeScrapMacheteSchematic"/>
+		<item name="meleeWpnClubScrapSchematic"/>
+		<item name="meleeWpnKnucklesScrapSchematic"/>
+	</append>
+	
+	<set xpath="lootcontainers/lootgroup[@name='groupToolsT0']">
+		<item name="meleeToolScrapFireaxe"/>
+		<item name="meleeToolScrapPickaxe"/>
+		<item name="meleeToolScrapShovel"/>
+	</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_All']/item[@name='meleeWpnBladeT0BoneKnife']/@name">meleeWpnBladeScrapMachete</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_All']/item[@name='meleeWpnClubT0WoodenClub']/@name">meleeWpnClubScrap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_All']/item[@name='meleeWpnKnucklesT0LeatherKnuckles']/@name">meleeWpnKnucklesScrap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_All']/item[@name='meleeWpnSpearT0StoneSpear']/@name">meleeWpnSpearScrap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Melee']/item[@name='meleeWpnBladeT0BoneKnife']/@name">meleeWpnBladeScrapMachete</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Melee']/item[@name='meleeWpnClubT0WoodenClub']/@name">meleeWpnClubScrap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Melee']/item[@name='meleeWpnKnucklesT0LeatherKnuckles']/@name">meleeWpnKnucklesScrap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Melee']/item[@name='meleeWpnSpearT0StoneSpear']/@name">meleeWpnSpearScrap</set>
+</config>
