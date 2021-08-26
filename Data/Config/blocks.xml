@@ -15174,7 +15174,7 @@ NOT the TextureNumber.
 	<property name="MultiBlockDim" value="1,6,1"/>
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine13m"/>
-	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="15" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="1"/>
 	<property name="SortOrder2" value="0455"/> <!-- SortTree -->
 </block>
@@ -15190,7 +15190,7 @@ NOT the TextureNumber.
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine19m"/>
-	<drop event="Harvest" name="resourceWood" count="70" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="25" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="SortOrder2" value="0460"/> <!-- SortTree -->
 </block>
@@ -15206,7 +15206,7 @@ NOT the TextureNumber.
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine28m"/>
 	<property name="PlantGrowing.FertileLevel" value="3"/>
-	<drop event="Harvest" name="resourceWood" count="110" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="35" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="SortOrder2" value="0465"/> <!-- SortTree -->
 </block>
@@ -15220,7 +15220,7 @@ NOT the TextureNumber.
 	<property name="ModelOffset" value="0,-0.5,0"/>
 	<property name="MultiBlockDim" value="1,28,1"/>
 	<property name="BigDecorationRadius" value="3"/>
-	<drop event="Harvest" name="resourceWood" count="150" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="55" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="SortOrder2" value="0470"/> <!-- SortTree -->
 </block>
@@ -15300,7 +15300,7 @@ NOT the TextureNumber.
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="IsPlant" value="true"/> <!-- it shall never be placed on rocks -->
-	<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="10" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="foodHoney" count="1" prob=".4"/>
 	<property name="FilterTags" value="foutdoor,ftrees"/>
 	<property name="SortOrder1" value="a0d0"/>
@@ -15315,7 +15315,7 @@ NOT the TextureNumber.
 	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="BigDecorationRadius" value="4"/>
 	<property name="ParticleOnDeath" value="treeGib_burnt_small"/>
-	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="15" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceCoal" count="3,8" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceCoal" count="3,8" tag="coalHarvest"/>
 	<property name="SortOrder2" value="0130"/> <!-- SortTree -->
@@ -15330,7 +15330,7 @@ NOT the TextureNumber.
 	<property name="ModelOffset" value="0,-.4,0"/>
 	<property name="MultiBlockDim" value="1,5,1"/>
 	<property name="BigDecorationRadius" value="5"/>
-	<drop event="Harvest" name="resourceWood" count="110" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="25" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceCoal" count="11,22" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceCoal" count="11,22" tag="coalHarvest"/>
 	<!-- <drop event="Destroy" name="treePlantedMaple1m" count="x"/> -->
@@ -15346,7 +15346,7 @@ NOT the TextureNumber.
 	<property name="ModelOffset" value="0,-.6,0"/>
 	<property name="MultiBlockDim" value="2,9,2"/>
 	<property name="BigDecorationRadius" value="5"/>
-	<drop event="Harvest" name="resourceWood" count="150" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="40" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceCoal" count="15,30" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceCoal" count="15,30" tag="coalHarvest"/>
 	<!-- <drop event="Destroy" name="treePlantedMaple1m" count="x"/> -->
@@ -16122,7 +16122,7 @@ NOT the TextureNumber.
 	<property name="Collide" value="melee"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<!-- <drop event="Destroy" name="plantedCorn1" count="0"/> -->
-	<drop event="Destroy" name="resourceYuccaFibers" count="3,12"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="2,5"/>
 </block>
 
 <block name="plantedGraceCorn1"> <!-- growing, stage 1, seed -->
@@ -19998,7 +19998,7 @@ NOT the TextureNumber.
 	<property name="Model" value="mirror"/>
 	<property name="Texture" value="241,241,358,241,62,241"/>
 	<property name="UseGlobalUV" value="Local"/>
-	<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="1"/>
 	<drop event="Fall" count="0" prob="0"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 </block>
@@ -20319,7 +20319,7 @@ NOT the TextureNumber.
 	<drop event="Destroy" count="0"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="DescriptionKey" value="cntLootPileGroupDesc"/>
-	<drop event="Harvest" name="resourceAcid" prob=".05" count="1" tag="WasteTreasuresAcidHarvest"/>
+	<drop event="Harvest" name="resourceAcid" prob=".02" count="1" tag="WasteTreasuresAcidHarvest"/>
 </block>
 
 <block name="cntMedicalPileMedium">
@@ -20344,7 +20344,7 @@ NOT the TextureNumber.
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="107"/>
 	<drop event="Destroy" name="resourceScrapPolymers" count="1,4"/>
-	<drop event="Harvest" name="resourceAcid" prob=".05" count="1" tag="WasteTreasuresAcidHarvest"/>
+	<drop event="Harvest" name="resourceAcid" prob=".02" count="1" tag="WasteTreasuresAcidHarvest"/>
 	<property name="FilterTags" value="floot"/>
 	<property name="DescriptionKey" value="cntLootPileGroupDesc"/>
 </block>
@@ -23967,7 +23967,7 @@ NOT the TextureNumber.
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	<property name="VehicleHitScale" value="999"/>
-	<drop event="Harvest" name="resourceWood" count="8,14" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="3,5" tag="oreWoodHarvest"/>
 	<!-- <drop event="Destroy" name="treePlantedMaple1m" count="x"/> -->
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.03"/>
 	<property name="FilterTags" value="fdecor,fother,outdoor"/>
@@ -24588,7 +24588,7 @@ NOT the TextureNumber.
 	<property name="LootList" value="40"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceForgedIron" count="2,4" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceForgedSteel" count="2,4" prob="0.5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceForgedSteel" count="2,4" prob="0.2" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="30" tag="allHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<property name="EconomicValue" value="250"/> <!-- disassemble value -->
@@ -25027,10 +25027,10 @@ NOT the TextureNumber.
 		<property name="resourceMechanicalParts" value="20"/>
 		<property name="resourceWood" value="50"/>
 	</property>
-	<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="50" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-	<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceForgedIron" count="5" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceMechanicalParts" count="8" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
