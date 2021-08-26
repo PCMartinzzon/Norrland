@@ -445,7 +445,7 @@
 	<!-- <property name="Buffs" value="zombieRadiatedBuff80"/> -->
 	<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
 
-	<property name="ExperienceGain" value="413"/> <!-- XP grunt -->
+	<property name="ExperienceGain" value="300"/> <!-- XP grunt -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<!-- <property name="LootListOnDeath" value="45"/> -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -493,7 +493,7 @@
 	<property name="HandItem" value="meleeHandZombieCop"/>
 	<property name="JumpMaxDistance" value="4.6, 5"/>
 
-	<property name="ExperienceGain" value="1200"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1000"/> <!-- XP strong -->
 	<property name="LootDropProb" value=".03"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 
