@@ -105,7 +105,7 @@ Console command: forcegamestage
 
 <gamestages>
 	<config
-		daysAliveChangeWhenKilled="2"
+		daysAliveChangeWhenKilled="3"
 
 		difficultyBonus="1.2"
 
