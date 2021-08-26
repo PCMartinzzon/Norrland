@@ -38,5 +38,5 @@ Features from Romero mod my changes is between ("")
 - Increaed amount of XP required to level due to more zombies.
 - Increased dismemberment chance of explosives.
 
-7DTD Version Required: A19.5 Stable.
+7DTD Version Required: A19.6 Stable.
 Current Mod Version: 0.4
