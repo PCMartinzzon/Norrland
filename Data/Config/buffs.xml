@@ -417,7 +417,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 			<!-- <triggered_effect trigger="onSelfRespawn" action="AddBuff" target="self" buff="buffStatusCheck01,buffStatusCheck02,buffPerkAbilityUpdate,buffNearDeathTraumaTrigger"/> -->
 
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffStatusHungry01">
-				<requirement name="StatComparePercCurrentToMax" stat="Food" operation="LTE" value=".5"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Food" operation="LTE" value=".4"/>
 				<requirement name="NotHasBuff" buff="buffStatusHungry01"/>
 				<requirement name="NotHasBuff" buff="buffStatusHungry02"/>
 				<requirement name="NotHasBuff" buff="buffStatusHungry03"/>
