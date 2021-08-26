@@ -127,8 +127,9 @@
 						<gameoption name="MaxSpawnedZombies" title="goMaxSpawnedZombies" value_wrap="false" value_type="int" values="25, 50, 75, 100, 125, 150, 175, 200" display_names="" value_localization_prefix="goZombie" />
 						<gameoption name="MaxSpawnedAnimals" title="goMaxSpawnedAnimals" value_wrap="false" value_type="int" values="25, 50, 75, 100" display_names="" value_localization_prefix="goAnimal" />
 						
-						<gameoption name="ZombieMoveNight" title="goZombieMoveNight" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMWalk" value_localization_prefix="" />
-						<gameoption name="ZombieFeralMove" title="goZombieFeralMove" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMWalk" value_localization_prefix="" />
+						<gameoption name="ZombieMove" title="goZombieMove" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMJog,goZMRun,goZMSprint" value_localization_prefix="" />					
+						<gameoption name="ZombieMoveNight" title="goZombieMoveNight" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMJog,goZMRun,goZMSprint" value_localization_prefix="" />
+						<gameoption name="ZombieFeralMove" title="goZombieFeralMove" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMJog,goZMRun,goZMSprint" value_localization_prefix="" />
 
 						<gameoption name="PersistentPlayerProfiles" title="goPersistentCharacters" value_wrap="false" value_type="bool" values="" display_names="" value_localization_prefix="" />
 						<gameoption name="XPMultiplier" title="goXPMultiplier" value_wrap="false" value_type="int" values="25, 50, 75, 100, 125, 150, 175, 200, 300" display_names="" value_localization_prefix="goXPMultiplierValue" />
@@ -213,6 +214,6 @@
 	</set>
 	<set xpath="/windows/window[@name='mainMenuLogo']">
 		<texture depth="3" color="[white]" texture="@file:Mods\1-RomeroModCore\UI\MainMenu\7DTD_logo.png" name="gameLogo" anchor_left="#cam,0.5,-20" anchor_bottom="#cam,0.5,70" anchor_right="#cam,0.5,-20" anchor_top="#cam,0.5,490" pivot="center" keep_aspect_ratio="BasedOnHeight" aspect_ratio="2.3" />
-		<label name="RomeroVersion" pos="230, 175" depth="0" size="250,33" text="V1.6" font_size="42" effect="outline" color="[white]" justify="center" />
+		<label name="RomeroVersion" pos="230, 175" depth="0" size="250,33" text="V1.5" font_size="42" effect="outline" color="[white]" justify="center" />
 	</set>
 </config>
