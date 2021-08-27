@@ -233,13 +233,13 @@
 	</effect_group>
 
 	<effect_group>
-		<requirement name="PlayerLevel" operation="LT" value="300"/>
+		<requirement name="PlayerLevel" operation="LT" value="200"/>
 			<passive_effect name="ExpDeficitPerDeathPercentage" operation="base_set" value=".25"/>
 			<passive_effect name="ExpDeficitMaxPercentage" operation="base_set" value=".5"/>
 	</effect_group>
 
 	<effect_group>
-		<requirement name="PlayerLevel" operation="GTE" value="300"/>
+		<requirement name="PlayerLevel" operation="GTE" value="200"/>
 			<passive_effect name="ExpDeficitPerDeathPercentage" operation="base_set" value="0"/>
 			<passive_effect name="ExpDeficitMaxPercentage" operation="base_set" value="0"/>
 	</effect_group>
