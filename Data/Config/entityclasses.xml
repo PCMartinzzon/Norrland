@@ -445,7 +445,7 @@
 	<!-- <property name="Buffs" value="zombieRadiatedBuff80"/> -->
 	<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
 
-	<property name="ExperienceGain" value="300"/> <!-- XP grunt -->
+	<property name="ExperienceGain" value="150"/> <!-- XP grunt -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<!-- <property name="LootListOnDeath" value="45"/> -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
