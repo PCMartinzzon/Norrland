@@ -254,7 +254,7 @@ tbnsew:
 	<property name="Texture" value="185,184,184,184,184,184"/>
 	<property name="ImposterExclude" value="true"/>
 	<property name="Map.Color" value="255,221,153"/>
-	<drop event="Harvest" name="resourceCrushedSand" count="9" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceCrushedSand" count="20" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceClayLump" count="9" tag="oreWoodHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<property class="RepairItems">
@@ -279,7 +279,7 @@ tbnsew:
 	<property name="Material" value="Msand"/><property name="NoScrapping" value="true"/>
 	<property name="Texture" value="185"/>
 	<property name="Map.Color" value="167,136,107"/>
-	<drop event="Harvest" name="resourceCrushedSand" count="7" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceCrushedSand" count="22" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceClayLump" count="1" tag="oreWoodHarvest"/>
 	<property class="RepairItems">
 		<property name="resourceCrushedSand" value="8"/>
