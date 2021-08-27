@@ -11,6 +11,10 @@ Changes for The Norrland mod
 -More realistic ammount from harvesting, some things gives you more and some gives you less
 -You will harvest more wood in snow biome
 -you will get more sand in the desert 
+-Get less EXP from killing zombies
+	Normal zombie -22,67 %
+	Feral Zombie -16,67 %
+	Radiated Zombie 0 %
 
 Features from Romero mod my changes is between ("")
 
