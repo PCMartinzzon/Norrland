@@ -9,7 +9,8 @@ MAGOLIS COMPO PACK is included https://community.7daystodie.com/topic/21900-mago
 Changes for The Norrland mod
 -Nerfed harvesting
 -More realistic ammount from harvesting, some things gives you more and some gives you less
-
+-You will harvest more wood in snow biome
+-you will get more sand in the desert 
 
 Features from Romero mod my changes is between ("")
 
