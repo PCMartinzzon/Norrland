@@ -255,7 +255,7 @@ tbnsew:
 	<property name="ImposterExclude" value="true"/>
 	<property name="Map.Color" value="255,221,153"/>
 	<drop event="Harvest" name="resourceCrushedSand" count="20" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="resourceClayLump" count="9" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceClayLump" count="1" tag="oreWoodHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<property class="RepairItems">
 		<property name="resourceCrushedSand" value="7"/>
@@ -15079,7 +15079,7 @@ NOT the TextureNumber.
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,6,1"/>
 	<property name="BigDecorationRadius" value="3"/>
-	<drop event="Harvest" name="resourceWood" count="10" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="20" tag="oreWoodHarvest"/>
 	<property name="FallOver" value="true"/>
 	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="1"/>
@@ -15094,7 +15094,7 @@ NOT the TextureNumber.
 	<property name="MultiBlockDim" value="1,12,1"/>
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-	<drop event="Harvest" name="resourceWood" count="20" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="40" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_winter01"/>
 	<property name="SortOrder2" value="0400"/> <!-- SortTree -->
@@ -15107,7 +15107,7 @@ NOT the TextureNumber.
 	<property name="ModelOffset" value="0,-0.4,0"/>
 	<property name="MultiBlockDim" value="1,19,1"/>
 	<property name="BigDecorationRadius" value="3"/>
-	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="50" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_winter02"/>
 	<property name="SortOrder2" value="0400"/> <!-- SortTree -->
@@ -15120,7 +15120,7 @@ NOT the TextureNumber.
 	<property name="ModelOffset" value="0,-0.5,0"/>
 	<property name="MultiBlockDim" value="1,27,1"/>
 	<property name="BigDecorationRadius" value="3"/>
-	<drop event="Harvest" name="resourceWood" count="50" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="70" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="ParticleOnDeath" value="treeGib_winter03"/>
 	<property name="SortOrder2" value="0400"/> <!-- SortTree -->
@@ -15174,7 +15174,7 @@ NOT the TextureNumber.
 	<property name="MultiBlockDim" value="1,6,1"/>
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine13m"/>
-	<drop event="Harvest" name="resourceWood" count="15" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="25" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="1"/>
 	<property name="SortOrder2" value="0455"/> <!-- SortTree -->
 </block>
@@ -15190,7 +15190,7 @@ NOT the TextureNumber.
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine19m"/>
-	<drop event="Harvest" name="resourceWood" count="25" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="35" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="SortOrder2" value="0460"/> <!-- SortTree -->
 </block>
@@ -15206,7 +15206,7 @@ NOT the TextureNumber.
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="PlantGrowing.Next" value="treePlantedWinterPine28m"/>
 	<property name="PlantGrowing.FertileLevel" value="3"/>
-	<drop event="Harvest" name="resourceWood" count="35" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="45" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="SortOrder2" value="0465"/> <!-- SortTree -->
 </block>
@@ -15220,7 +15220,7 @@ NOT the TextureNumber.
 	<property name="ModelOffset" value="0,-0.5,0"/>
 	<property name="MultiBlockDim" value="1,28,1"/>
 	<property name="BigDecorationRadius" value="3"/>
-	<drop event="Harvest" name="resourceWood" count="55" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="75" tag="oreWoodHarvest"/>
 	<drop event="Destroy" name="treePlantedWinterPine1m" count="2"/>
 	<property name="SortOrder2" value="0470"/> <!-- SortTree -->
 </block>
