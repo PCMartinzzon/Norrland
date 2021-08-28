@@ -261,7 +261,7 @@ tbnsew:
 		<property name="resourceCrushedSand" value="7"/>
 		<property name="resourceClayLump" value="7"/>
 	</property>
-	<drop event="Fall" name="resourceCrushedSand" count="11" prob="0.5" stick_chance="0"/>
+	<drop event="Fall" name="resourceCrushedSand" count="20" prob="0.5" stick_chance="0"/>
 	<property name="Group" value="Decor/Miscellaneous"/>
 	<property name="CanMobsSpawnOn" value="true"/>
 	<property name="EconomicValue" value="5"/>
@@ -473,7 +473,7 @@ tbnsew:
 	<property name="Mesh" value="terrain"/>
 	<property name="Texture" value="33"/>
 	<property name="ImposterExclude" value="true"/>
-	<drop event="Harvest" name="resourceScrapIron" count="30" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceRockSmall" count="5" tag="oreWoodHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceScrapIron" count="50" prob="0.4" stick_chance="0"/>
