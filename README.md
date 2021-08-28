@@ -11,6 +11,7 @@ Changes for The Norrland mod
 -More realistic ammount from harvesting, some things gives you more and some gives you less
 -You will harvest more wood in snow biome
 -you will get more sand in the desert 
+-you will get iron ore in the wasteland
 -Get less EXP from killing zombies
 	Normal zombie -22,67 %
 	Feral Zombie -16,67 %

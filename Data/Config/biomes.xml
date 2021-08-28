@@ -914,7 +914,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<layer depth="2" blockname="terrDestroyedStone"/> <layer depth="2" blockname="terrDirt"/>
 				<layer depth="1" blockname="terrStone"> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer>
 				<layer depth="*" blockname="terrStone">
-					<resource blockname="terrOreIron" prob="0.6500" rwgGenerationType="all"/>
+					<resource blockname="terrOreIron" prob="0.8000" rwgGenerationType="all"/>
 					<resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="3" blockname="terrBedrock"/>
